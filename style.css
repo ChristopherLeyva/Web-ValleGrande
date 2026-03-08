@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 60px;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-button {
+    background-color: #26e300; /* Naranja */
+    color: #000;
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 20px;
+    border: 1px solid #000; /* Borde negro como en la imagen */
+    font-size: 14px;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subsection-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.text-red { color: #fe0000; }
+.text-blue { color: #2121ff; }
+.text-orange { color: #b75a00; }
+.text-black { color: #000000; }
+
+.section-text {
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.list-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.history-content {
+    flex: 1;
+}
+
+.history-image img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+}
+
+.action-button {
+    background-color: #f39c12;
+    color: #000;
+    border: 1px solid #000; /* Borde negro */
+    padding: 8px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.blue-square {
+    width: 8px;
+    height: 8px;
+    background-color: #4285f4; /* Azul Youtube style  */
+    margin: 10px auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.video-container {
+    width: 100%;
+    margin: 15px auto 0;
+}
+
+.video-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.footer {
+    background-color: #2b5c8f;
+    color: #ffffff;
+    padding: 30px 20px;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
